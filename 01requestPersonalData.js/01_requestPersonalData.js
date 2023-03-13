@@ -1,5 +1,8 @@
 // Pedimos el nombre por medio de un prompt y lo guardamos en la variable "nombre"
-var nombre = prompt("Por favor, introduce tu nombre:");
+var nombre = "";
+
+nombre = prompt("Por favor, introduce tu nombre:");
+console.log(nombre);
 
 // Pedimos el teléfono por medio de un prompt y lo guardamos en la variable "telefono"
 var telefono = prompt("Por favor, introduce tu número de teléfono:");
